@@ -3,22 +3,21 @@ package com.driver.test;
 import static org.junit.Assert.*;
 import org.junit.jupiter.api.Test;
 
-    // Task 1: Create Product class inside Main
-    public static class TestCases {
+    // Task 1: Create a class Product inside Main class
+    static class Product {
 
-        // Task 3
-        public void  product(int x, int y) {
-            return x * y;
+        // Task 3: Method with two int parameters
+        public int product(int x, int y) {
+            return x * y; // Returns the product of x and y
         }
 
-        // Task 4
-         public void  product(int x, int y, int z) {
-            return x * y * z;
+        // Task 4: Overloaded method with three int parameters
+        public int product(int x, int y, int z) {
+            return x * y * z; // Returns the product of x, y, and z
         }
 
-        // Task 5
-      public void  product(double x, double y) {
-            return x * y;
+        // Task 5: Overloaded method with two double parameters
+        public double product(double x, double y) {
+            return x * y; // Returns the product of x and y
         }
     }
-}

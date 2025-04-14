@@ -5,7 +5,7 @@ public class Main {
 
   public static void main(String args[]){
 
-    TestCases performproduct = new TestCases();
+    TestCases performproduct = new performproduct ();
 
     performproduct.product(x:4,y:5);
     performproduct.product(x:6,y:6,z:7);

@@ -7,17 +7,17 @@ import org.junit.jupiter.api.Test;
     public static class TestCases {
 
         // Task 3
-        public int product(int x, int y) {
+        public void  product(int x, int y) {
             return x * y;
         }
 
         // Task 4
-        public int product(int x, int y, int z) {
+         public void  product(int x, int y, int z) {
             return x * y * z;
         }
 
         // Task 5
-        public double product(double x, double y) {
+      public void  product(double x, double y) {
             return x * y;
         }
     }

@@ -7,9 +7,9 @@ public class Main {
 
     TestCases performproduct = new performproduct ();
 
-    performproduct.product(x:4,y:5);
-    performproduct.product(x:6,y:6,z:7);
-    performproduct.product(x:34.67,y:78.98);
+    TestCases.product(4, 5);        
+        TestCases.product(6, 6, 7);     
+        TestCases.product(34.67, 78.98);
   }
 
 }

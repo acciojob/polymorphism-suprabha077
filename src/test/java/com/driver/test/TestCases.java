@@ -5,6 +5,8 @@ import org.junit.jupiter.api.Test;
 
 public class TestCases {
 
+    public class TestCases {
+
     public static void product(int x, int y) {
         System.out.println(x * y);
     }

@@ -3,6 +3,8 @@ package com.driver.test;
 import static org.junit.Assert.*;
 import org.junit.jupiter.api.Test;
 
+ public class Main {
+
     // Task 1: Create a class Product inside Main class
     static class Product {
 

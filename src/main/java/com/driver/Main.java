@@ -5,11 +5,11 @@ public class Main {
 
   public static void main(String args[]){
 
-    TestCases TestCases  = new TestCases  ();
+        TestCases performProduct  = new TestCases  ();
 
-    TestCases.product(4, 5);        
-        TestCases.product(6, 6, 7);     
+        TestCases.product(4, 5);
+        TestCases.product(6, 6, 7);
         TestCases.product(34.67, 78.98);
-  }
+    }
 
 }

@@ -5,17 +5,15 @@ import org.junit.jupiter.api.Test;
 
 public class TestCases {
 
-     public static void product(int x, int y){
+    public static void product(int x, int y) {
+        System.out.println(x * y);
+    }
 
-          System.out.println(x*y);
-     }
-       public static void product(int x, int y,int z){
+    public static void product(int x, int y, int z) {
+        System.out.println(x * y * z);
+    }
 
-          System.out.println(x*y*z);
-     }
-       public static void product(double x, double y){
-
-          System.out.println(x*y);
-     }
-     
+    public static void product(double x, double y) {
+        System.out.println(x * y);
+    }
 }

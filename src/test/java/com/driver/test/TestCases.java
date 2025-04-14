@@ -5,21 +5,25 @@ import org.junit.jupiter.api.Test;
 
  public class Main {
 
-    // Task 1: Create a class Product inside Main class
-    static class Product {
+    public class Main {
 
-        // Task 3: Method with two int parameters
+    // Task 1: Product class inside Main
+    public static class Product {
+
+        // Task 3
         public int product(int x, int y) {
-            return x * y; // Returns the product of x and y
+            return x * y;
         }
 
-        // Task 4: Overloaded method with three int parameters
+        // Task 4
         public int product(int x, int y, int z) {
-            return x * y * z; // Returns the product of x, y, and z
+            return x * y * z;
         }
 
-        // Task 5: Overloaded method with two double parameters
+        // Task 5
         public double product(double x, double y) {
-            return x * y; // Returns the product of x and y
+            return x * y;
         }
     }
+    }
+ }

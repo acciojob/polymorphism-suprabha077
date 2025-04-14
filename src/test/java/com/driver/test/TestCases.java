@@ -15,7 +15,7 @@ public class TestCases {
      }
        public static void product(double x, double y){
 
-          System.out.println(x.*y);
+          System.out.println(x*y);
      }
      
 }

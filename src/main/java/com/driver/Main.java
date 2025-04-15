@@ -19,9 +19,9 @@ public class Main {
 
 
         // Calling all product methods
-        System.out.println("Product of 4 and 5: " + p.product(4, 5));
-        System.out.println("Product of 2, 3, and 4: " + p.product(2, 3, 4));
-        System.out.println("Product of 2.5 and 3.5: " + p.product(2.5, 3.5));
+        System.out.println(p.product(4, 5));
+        System.out.println( p.product(2, 3, 4));
+        System.out.println(p.product(2.5, 3.5));
     }
 }
 

@@ -2,9 +2,21 @@ package com.driver;
 
 public class Main {
 
-public static void main(String[] args) {
-        // Task 2: Create object of Product
-        TestCases p = new TestCases();
+    static class Product {
+
+        public int product(int x, int y) {
+            return x*y;
+        }
+        public int product(int x, int y, int z) {
+            return x*y*z;
+        }
+        public double product(double x, double y) {
+            return x*y;
+        }
+    }
+    public static void main(String[] args) {
+        Product p = new Product();
+
 
         // Calling all product methods
         System.out.println("Product of 4 and 5: " + p.product(4, 5));
@@ -13,4 +25,4 @@ public static void main(String[] args) {
     }
 }
 
-}
+
